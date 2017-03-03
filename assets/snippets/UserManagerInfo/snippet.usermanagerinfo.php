@@ -1,4 +1,17 @@
 <?php
+/**
+ * UserManagerInfo
+ *
+ * Displays information about the web user or manager currently logged in
+ *
+ * @category 	snippet
+ * @version 	1.0
+ * @license 	http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
+ * @author      Andrej Kabachnik (kabachello@hotmail.com)
+ * @internal	@modx_category Login
+ * @internal    @installset base, sample
+ */
+ 
 $field = $field ? $field : null;
 $userType = $userType ? strtolower($userType) : null;
 if (isset($id) && (int)$id>0) {
